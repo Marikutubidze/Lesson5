@@ -50,6 +50,20 @@ body {
 
 /* სექციის ყუთები */
 
+.section-one-image {
+    position: relative;
+    display: inline-block;
+}
+
+.image-paragraph {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Helvetica';
+}
+
 .trending-box {
     width: 361px;
     height: 351px;
@@ -82,10 +96,38 @@ body {
     display: inline-block;
 }
 
+.left-image {
+    position: relative;
+    display: inline-block;
+}
+
+.left-image-paragraph {
+    position: absolute;
+    top: 394px;
+    right: 22px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Helvetica';
+}
+
 .right-image-column {
     display: inline-block;
     width: 361px;
     vertical-align: top;
+}
+
+.right-image {
+    position: relative;
+    display: inline-block;
+}
+
+.right-image-paragraph {
+    position: absolute;
+    top: 18px;
+    left: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Helvetica';
 }
 
 .left-top-image {
